@@ -15,6 +15,9 @@ public class Gitmanos {
       try
       {
          System.out.print("Sumando 1 : ");
+         System.out.printf("hola bety");
+         System.out.printf("como estas????");
+
          int s1 = Integer.parseInt(br.readLine());
          System.out.print("Sumando 2 : ");
          int s2 = Integer.parseInt(br.readLine());
@@ -22,6 +25,7 @@ public class Gitmanos {
          System.out.println ("La suma es " + s1 + "+" + s2 +"="+ sumacion);
       }
       catch (IOException | NumberFormatException e)
+          
       {
       }
     
